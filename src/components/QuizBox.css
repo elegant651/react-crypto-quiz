@@ -1,0 +1,81 @@
+.QuizBox {
+  width: 100%;
+  margin: 10px auto;
+  border: 1px solid black;
+  padding: 3rem;
+}
+
+.scoreWrap {
+  font-size: 26px;
+  font-weight: 800;
+  margin: 10px;
+}
+
+.quizHeader {
+  margin: 20px;
+}
+
+.quizHeader h3 {
+  color: #7d7a7a;
+}
+
+.choice {
+  font-size: 22px;
+  margin: 10px auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;  
+  text-align: left;  
+  border: 1px solid #000;
+  cursor: pointer; 
+}
+
+.choice:hover {
+  color: #fff;
+  background: #228B22;
+}
+
+.choice.solution {
+  color: #fff;
+  background: #228B22;
+}
+
+.choice.correct {
+  background: #228B22;
+  border: 1px solid #000;
+  color: #fff;
+}
+.choice.wrong {
+  background: #8B0000;
+  border: 1px solid black;
+  color: black;
+}
+
+button {
+  margin: 10px;
+  font-size: 20px;
+  border: 1px solid #000;  
+}
+
+.messageDiv {
+  margin: 15px;
+}
+
+.messageDiv .correctAnswer {
+  color: #6495ED;
+}
+.messageDiv .wrongAnswer {
+  color: #DC143C;
+}
+.messageDiv .explanation {
+  font-weight: bold;
+  margin: 15px;
+}
+
+.messageDiv .explanation h3 {
+  color: #6495ED;  
+}
+
+.score {
+  margin: 15px;
+}
